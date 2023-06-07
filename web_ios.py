@@ -6,7 +6,7 @@ import os
 
 API_KEY = os.environ["API_KEY"]
 
-APPIUM = 'https://dev-us-pao-5.headspin.io:7026/v0/' + API_KEY' + '/wd/hub'
+APPIUM = 'https://dev-us-pao-5.headspin.io:7026/v0/' + API_KEY + '/wd/hub'
 
 CAPS = {
     "deviceName": "iPhone 13",
