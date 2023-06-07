@@ -15,7 +15,7 @@ CAPS = {
     "platformVersion": "16.2",
     'automationName': 'XCUITest',
     'browserName': 'Safari',
-    # "headspin:capture" : True
+    'headspin:capture' : True
 }
 
 driver = webdriver.Remote(
