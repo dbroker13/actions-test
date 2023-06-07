@@ -4,9 +4,9 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import os
 
-# API_KEY = '03e48a3884fb4707a448f4480a87600e'#os.environ["API_KEY"]
+API_KEY = os.environ["API_KEY"]
 
-APPIUM = 'https://dev-us-pao-5.headspin.io:7026/v0/03e48a3884fb4707a448f4480a87600e/wd/hub'
+APPIUM = 'https://dev-us-pao-5.headspin.io:7026/v0/' + API_KEY' + '/wd/hub'
 
 CAPS = {
     "deviceName": "iPhone 13",
